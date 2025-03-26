@@ -17,4 +17,143 @@ bibliography: references.bib
 ---
 
 ## Section
-This is a simple placeholder for the manuscript's main document [@knuth84].
+
+References This is a simple placeholder for the manuscript's main document \[mund2017earth, brown2021us, sprague2005wastewater, rogers2002use, burtscher2019potential, ahmed2019physical\]
+
+## Proposal 1
+
+**Title:** County Party Election Data Compared to Environmental Data
+
+**Justification:** Partisan affiliation is one of the strongest predictors of policy at local, state, and national levels, and it drives the outcomes of all sorts of public decisions —including environmental protection and regulation. At the county level, the prevalent political party can influence how monetary resources are spent on environmental monitoring, pollution control, and green infrastructure implementation. In time, these policy choices will make a measurable difference — or not, in ecological health indicators like air quality, water pollution, and visible levels of debris. By comparing counties with dominant political affiliations, especially those that have shifted over time, this study examines whether governance rooted in ideology may reflect quantitative environmental realities. The justification for this study lies in the increasing politicization of environmental issues and the critical need to understand the relationship between governance and ecological well-being. This project aims to draw connections between historical and current environmental data and electoral trends to identify patterns that could serve as evidence for future environmental policymaking or community advocacy efforts.
+
+**Research Objective/Question/hypothesis:** To determine if there is a correlation between county-level political party dominance and environmental health indicators regarding various types of pollution: air quality, water quality, and general debris.  We can also consider how pollution was affected in regions that changed political affiliations and see if parties impacted pollution differently over time.
+
+**Proposed Methods:** This study will use county-level election data from the Federal Election Commission (FEC) alongside environmental data from various sources. The variables will include dominant party affiliation, air quality index, and water pollution levels since the beginning of the data sets we will use over multiple decades.  This would be corrected for by population and plotted on a map along with a histogram.
+
+Political affiliation:
+
+<https://www.fec.gov/data/elections/> 
+
+<https://electionlab.mit.edu/data>
+
+<https://uselectionatlas.org/>
+
+\
+Environmental data:\
+[https://www.epa.gov/aqs\
+](https://www.epa.gov/aqs)[https://www.waterqualitydata.us/\
+](https://www.waterqualitydata.us/)[https://www.epa.gov/ejscreen\
+](https://www.epa.gov/ejscreen)<https://waterdata.usgs.gov/nwis/qw>
+
+<https://www.ncei.noaa.gov/>
+
+[ https://openaq.org\
+](https://openaq.org)
+
+Population Data:
+
+<https://data.census.gov/>
+
+**Expected Outcomes** Specific party affiliation is expected to highlight higher investment in pollution and environmental protection policies.  The theory is that these outcomes highlight the importance of policy decisions on environmental health.
+
+## Proposal 2
+
+**Title:** Relationship Between Snowfall and Health in Aspen, Colorado
+
+**Justification:** Health and outdoor activities can be positively correlated. A study done shows that the mortality rate is decreased in subjects with high exercise capacities (Burtscher, et al., 2019). Skiing is an exercise that requires a lot of intensity, especially when there is more snow. Older women’s participation in outdoor activities shows benefits for long-term survival (Ahmed and Bath, 2018). If Aspen, Colorado receives more snow each year, then there should be an increase in the well-being of the town, thus reducing activities that might be harmful to the body (such as drinking and smoking). If there is less snow, then there might be less days accessible to ski, which could in turn cause more people to hang out in the town and indulge in these activities that are bad for their health.
+
+Burtscher, M., Federolf, P. A., Nachbauer, W., & Kopp, M. (2019). Potential health benefits from downhill skiing. Frontiers in physiology, 9, 1924.
+
+Ahmed, W., Fayoyin, O., & Bath, P. A. (2018). Physical activity and long-term survival in older men and women: A 21 year longitudinal study. Activities, Adaptation & Aging, 43(4), 294–314. https://doi.org/10.1080/01924788.2018.1534535
+
+**Research Objective/Question/hypothesis:** How does the overall health of the town of Aspen, CO change with snowfall levels from 2019-2023?
+
+**Proposed Methods:** A comparison study will be done with the snowfall data for Aspen, in relation to the health impacts of the city. The dataset for the health impacts includes aspects like sleeping less than 7 hours, obesity, binge drinking, physical inactivity, and smoking. This will be compared with the levels of snowfall analyzed over the snowfall seasons from 2019-2023.
+
+The health data for Aspen, CO comes from Google Data Commons and can be accessed here -<https://datacommons.org/tools/timeline#&place=geoId/0803620&statsVar=Percent_Person_SleepLessThan7Hours__Percent_Person_Obesity__Percent_Person_BingeDrinking__Percent_Person_PhysicalInactivity__Percent_Person_Smoking>.
+
+The snowfall data for the area can also be accessed from Google Data Commons at -<https://datacommons.org/explore#q=Aspen%2C%20CO%2C%20USA%20snow%20>
+
+**Expected Outcomes** I predict that as snowfall increases, so does health benefits in the ski town of Aspen, CO. Since a big aspect of this town is the skiing, I predict that if the ski conditions are good, the overall health of the town is going to be better
+
+## Proposal 3
+
+**Title:** Change of Wildfire Severity and Frequency in Relation to increasing Greenhouse Gas emissions
+
+**Justification:** The increase in global temperature over the years has induced multitudes of environmental repercussions across all systems of the Earth, including increased levels of drought and natural disasters. Western US regions are being hit particularly hard as longer and more severe droughts partnered with record breaking heat greatly increase the rate of wildfires in critical western forests. Tracking the change in severity and frequency of wildfires in tandem with climate change data on increased global temperatures is critical to determine the relationship between these two phenomenons. Additionally, formulating a better understanding of the effects of climate change on wildfires will help in developing effective land management plans between researchers, landowners, and critical stakeholders to protect western forests in the future.
+
+**Research Objective/Question/hypothesis:** How has wildfire frequency and intensity changed over time in relation to the increased Greenhouse Gas emissions?
+
+**Proposed Methods:** The data sets used in this study span over North America over an extended period of time. This report will use R Studio to import, clean, analyze, and visualize both data sets to find correlation and patterns between variables.
+
+Long term wildfire area and temperature data was obtained from Google Scholar linked:
+
+<https://iopscience.iop.org/article/10.1088/1748-9326/aba868/meta>
+
+Long term greenhouse gas emissions was obtained from NOAA's website linked:
+
+<https://data.noaa.gov/onestop/collections/details/2c595441-7b6c-4a90-8f84-83d99d67f280>
+
+**Expected Outcomes** I predict that wildfire frequency and severity will increase in correlation with the increase of greenhouse gas emissions over time.
+
+## Proposal 4
+
+**Title:** Toxic Release Inventory's Correlation to Stream Flow Patterns in Colorado
+
+**Justification:** Freshwater is an ecosystem that we care a lot about, being that this is where we get our drinking water from. When toxic substances enter water systems, many negative effects can be associated. Chemicals have been found in Colorado streams for many years and can be found in urban or forested areas (Sprague and Battaglin, 2005). Stream health can be negatively impacted by contaminants, and these effects can be detrimental to the overall stream health. A study found that the biological condition of streams was significantly dependent on the contaminants found in the water’s vegetative habits (Rogers, et al., 2002). Looking at the correlation of contaminants in a river can help us directly identify the river’s health. Additionally, rivers have importance to human activities such as kayaking, swimming, rafting, as well as campgrounds and houses on the rivers of Colorado (Sprague and Battaglin, 2005). Most importantly to the significance is that low concentrations of wastewater chemicals were found in groundwater far away from obvious sources (Sprague and Battaglin, 2005).
+
+Sprague, L. A., & Battaglin, W. A. (2005). Wastewater chemicals in Colorado's streams and ground water (p. 4). Boulder, CO,, USA: US Geological Survey.
+
+Rogers, C. E., Brabander, D. J., Barbour, M. T., & Hemond, H. F. (2002). Use of physical, chemical, and biological indices to assess impacts of contaminants and physical habitat alteration in urban streams. Environmental Toxicology and Chemistry, 21(6), 1156-1167. 
+
+**Research Objective/Question/hypothesis:** What is the relationship between streamflow levels and output of toxic chemicals released at sites in Colorado in 2020?
+
+This research aims to determine if there is a relationship between chemical outputs (such as at factories) to the streamflow levels in the Poudre River.
+
+**Proposed Methods:** This study focuses on data sets obtained in Colorado, USA. This report will use RStudio to bring in both data sets and analyze, clean, and assess data sets to find patterns. This report looks mainly at spatial properties within Colorado, while also analyzing temporal stream patterns.
+
+Toxic release inventory data were obtained from the EPA’s website accessed at this link -<https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present>.
+
+Streamflow data from Fort Collins/ other Colorado areas can be found here -<https://dwr.state.co.us/Tools/Stations/CLACANCO> .
+
+**Expected Outcomes** I expect to find that as the contamination levels increase in the rivers, the stream flow will eventually decrease, or will give us more insight into how affected the waters will be downstream.
+
+## Proposal 5
+
+**Title:** Correlation Between Forest Cover Type/ Ammount on Soil Moisture.
+
+**Justification:** Earth's forested regions are some of the most crucial to the the health of both our natural and anthropogenic systems. They provide habitat space, carbon sequestration, erosion stabilization, and so much more for the health of our ecosystems. Additionally, they hold great cultural importance for many demographics of people, increase quality of life both mentally and physically, and provide countless ecosystem goods and services. With increasing threats to forests such as deforestation, prolonged drought, excessive heat, and more, it is even more important that we understand conditions that help forests to thrive and maintain their health in the future. Soil moisture is a factor that effects many different Earth systems across the globe, and specific soil moisture levels are correlated with different kinds of forest cover. This relationship is important to examine to formulate a better understanding of how soil moisture effects forest cover type, particularly as drought frequency and intensity increase with climate change.
+
+**Research Objective/Question/hypothesis:** How are forest cover type and soil moisture levels correlated? Can we use the current correlation between these two variables to hypothesize how forest cover may change in the face of increased droughts due to Climate Change?
+
+**Proposed Methods:** These data sets both cover a global scale. This report will use RStudio to bring in both data sets and analyze, clean, and assess data sets to provide insight as to how forest cover and soil moisture relate to one another.
+
+Forest Cover data was found through the NASA MODIS website linked
+
+<https://lpdaac.usgs.gov/products/gfcc30tcv003/>
+
+Soil Moisture level data was found through the Copernicus Open Access Hub Website Linked
+
+<https://cds.climate.copernicus.eu/datasets/satellite-soil-moisture?tab=overview>
+
+**Expected Outcomes** I expect higher soil moisture levels to correlate with more luch forest land cover with deciduous broad leaf trees that require more water. I expect low soil moisture levels to be correlated with drought tolerent forests and vegetation.
+
+## Proposal 6
+
+**Title:** Native Flower species response to Native Vs Non-Native Pollinators in Colorado.
+
+**Justification:** Pollinators play a central role in the reproductive success of flowering plants, making them foundational to both agricultural systems and native ecosystems. In Colorado, as in many parts of the world, the introduction and expansion of non-native pollinator species—particularly the European honey bee—have led to growing concern about their impact on native pollinators such as solitary bees. These native bee species have often coevolved with regional flowering plants, creating specific mutualistic relationships that support ecological stability and biodiversity. Generalist non-native pollinators may indirectly impact coevolved dynamics by competitively stifling the native pollinators of the original blooms, changing their pollinatory structure, and thus decreasing the fitness of the native flora. Because pollinator interactions are critical for preserving plant genetic diversity and population viability, knowledge of these dynamics is essential for conservation planning. Such a study is warranted as it is vital to know how native plant communities respond to pollinator composition shifts as non-native species increasingly dominate pollinator networks
+
+**Research Objective/Question/hypothesis:** We want to assess how the presence of native vs. non-native pollinators influences the reproductive success and pollination rates of native flower species.
+
+**Proposed Methods:** This study will combine field observations of pollinator interactions from the National Pollinator Database as well as data from inaturalist and other citizen scientist sources. We will also analyze the prominence of native plant species using inaturalist and Pl\@ntnet.  We will then compare regions with more observed native pollinators versus more observed non native pollinators to the amount of nearby native plant species to see if there is a correlation between their prevalence.  We will then display that as a map and histogram
+
+<https://www.usgs.gov/labs/native-bee-inventory-and-monitoring-lab/bee-inventories-and-monitoring-projects>
+
+<https://www.inaturalist.org>
+
+<https://identify.plantnet.org/>
+
+<https://www.gbif.org>
+
+**Expected Outcomes** It is expected that there will be a sigifficant positive correlation between the reproductive success and pollination rates of native flower species and native pollinator species of Colorado, and a significant negative correlation between the reproductive success and pollination rates of native flower species and non native pollinator species of Colorado.
